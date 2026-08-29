@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1000px;
+    background-color: white;
+}
+
+.cabecera {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cabecera nav {
+    margin-bottom: 20px;
+}
+
+.cabecera nav a {
+    color: #cccccc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.cabecera h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contenido-principal {
+    padding: 40px 0;
+}
+
+h2 {
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+section:first-child h2 {
+    margin-top: 0;
+}
+
+p {
+    color: #444;
+    font-size: 14px;
+}
+
+/* Aquí está la parte avanzada de Flexbox */
+.grid-servicios {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.servicio {
+    flex: 1; /* Hace que todas las cajas midan lo mismo */
+    background-color: #f7f7f7;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 30px 20px;
+    text-align: center;
+    color: #555;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    font-size: 14px;
+}
+
+.pie-pagina {
+    background-color: #333333;
+    color: #cccccc;
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+}
